@@ -18,5 +18,6 @@ public class StudentController {
     @PostMapping("/add")
     public String add(@RequestBody Student student){
         studentService.saveStudent(student);
+        return "New student added";
     }
 }

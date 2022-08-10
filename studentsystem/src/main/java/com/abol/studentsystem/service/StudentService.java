@@ -5,5 +5,4 @@ import com.abol.studentsystem.model.Student;
 public interface StudentService {
 
     public Student saveStudent(Student student);
-    return "New student is added"
 }
